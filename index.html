@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pranjal Pandey • Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Pranjal Pandey</span></h1>
+      <p>A learner exploring C programming, data structures, and algorithms.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="https://github.com/pranjalpandey-daemon" target="_blank" class="btn">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm currently building my foundation in programming with C and DSA. 
+        I enjoy writing clear, well-commented code and documenting my learning journey. 
+        This portfolio will grow as I create projects and share my progress.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>C basics: variables, arrays, strings</li>
+        <li>Data structures: linked lists, queues (learning in progress)</li>
+        <li>Algorithms: binary search, subarray problems</li>
+        <li>Tools: VS Code, Git, GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🚧 Coming Soon</h3>
+          <p>I’m currently learning C and DSA. This section will showcase my first projects soon!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>GitHub: <a href="https://github.com/pranjalpandey-daemon" target="_blank">github.com/pranjalpandey-daemon</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Pranjal Pandey • Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
