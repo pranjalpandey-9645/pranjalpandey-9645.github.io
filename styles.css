@@ -151,6 +151,7 @@ hr {
   background: #00f7ff;
   color: #0f172a;
   box-shadow: 0 0 15px #00f7ff;
+  transform: translateY(0);
 }
 
 .btn:hover {
