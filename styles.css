@@ -6,10 +6,11 @@
 }
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 1.75;
   background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
   color: #e2e8f0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Containers */
@@ -27,6 +28,15 @@ body {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   animation: fadeIn 2s ease-in-out;
+}
+
+.hero img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+  margin-bottom: 1.5rem;
 }
 
 .hero h1 {
@@ -68,6 +78,14 @@ body {
   text-shadow: 0 0 10px #00f7ff;
   text-align: center;
   font-size: 2rem;
+}
+
+/* Divider */
+hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 60px 0;
 }
 
 /* Skills */
