@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.75;
   background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
   color: #e2e8f0;
