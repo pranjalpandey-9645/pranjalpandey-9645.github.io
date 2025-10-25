@@ -1,7 +1,7 @@
 # 🌐 Pranjal Pandey — Portfolio Website
 
-This repository contains the source code for my personal portfolio website, hosted with **GitHub Pages** at  
-👉 [https://pranjalpandey-daemon.github.io](https://pranjalpandey-daemon.github.io)
+This repository contains the source code for my personal portfolio website, hosted with **GitHub Pages** at
+👉 [https://pranjalpandey-9645.github.io](https://pranjalpandey-9645.github.io)
 
 The site is a simple, static HTML/CSS project that introduces who I am, what I’m learning, and will eventually showcase the projects I build as I grow my skills in **C programming** and **Data Structures & Algorithms (DSA)**.
 
