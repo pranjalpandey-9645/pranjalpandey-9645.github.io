@@ -56,44 +56,78 @@ header {
     color: #00b7ff;
 }
 
-/* --- Hero Section --- */
+/* HERO SECTION */
 .hero {
-    height: 90vh;
-    background: linear-gradient(135deg, #0c0c0c 40%, #041b2d);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #0d0d0d, #1a0033);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
 }
 
-.hero-content h2 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-    color: #00b7ff;
-    text-shadow: 0 0 20px #00b7ff;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
-.hero-content p {
-    max-width: 700px;
-    margin: 0 auto 25px;
-    font-size: 1.1rem;
+/* Profile Picture */
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 25px #00ffff80;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px #00ffffb0;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .btn {
-    background: #00b7ff;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  background: #00ffff;
+  color: #0d0d0d;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .btn:hover {
-    background: transparent;
-    border: 2px solid #00b7ff;
+  background: #00ccff;
+  transform: scale(1.05);
 }
+
 
 /* --- About Sectio --- */
 .about {
