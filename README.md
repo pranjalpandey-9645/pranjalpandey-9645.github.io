@@ -35,9 +35,9 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/pranjalpandey-daemon/pranjalpandey-daemon.github.io.git
+git clone https://github.com/pranjalpandey-9645/pranjalpandey-9645.github.io.git
 
 # Open the project folder
-cd pranjalpandey-daemon.github.io
+cd pranjalpandey-9645.github.io
 
 # Open index.html in your browser
